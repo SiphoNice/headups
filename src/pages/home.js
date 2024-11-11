@@ -31,7 +31,7 @@ const Home = () => {
         <div className="row">
           <div className="col-lg-12 col-md-12 mx-auto p-0">
             <img src={houseImage} className="w-100" alt="House" />
-            <div class="alert alert-secondary block-alert" role="alert">
+            <div className="alert alert-secondary block-alert" role="alert">
               List of houses with reach history
             </div>
           </div>
