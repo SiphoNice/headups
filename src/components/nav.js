@@ -43,7 +43,7 @@ const Nav = () => {
         </div>
         <div className="navbar navbar-dark bg-red shadow-sm">
           <div className="container">
-            <Link to="#" className="navbar-brand d-flex align-items-center">
+            <Link to="/" className="navbar-brand d-flex align-items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
