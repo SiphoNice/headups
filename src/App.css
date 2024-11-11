@@ -17,5 +17,23 @@ h1,
 h2,
 h3,
 h4 {
-    font-weight: 900 !important;
+    font-weight: 600 !important;
+}
+ul,li{
+    text-align: left;
+    margin-bottom: 10px;
+}
+.text-body-emphasis{
+    text-align: left;
+}
+.block-alert{
+    background-color: #ef2129 !important;
+    border-radius: 0 !important;
+    border: none !important;
+    color: #ffffff !important;
+    font-weight: 600;
+    font-size: 20px;
+}
+.card-body{
+    text-align: left;
 }

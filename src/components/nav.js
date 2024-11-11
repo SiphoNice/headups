@@ -10,28 +10,30 @@ const Nav = () => {
               <div className="col-sm-8 col-md-7 py-4">
                 <h4>About</h4>
                 <p className="text-body-secondary">
-                  Add some information about the album below, the author, or any
-                  other background context. Make it a few sentences long so
-                  folks can pick up some informative tidbits. Then, link them
-                  off to some social networking sites or contact information.
+                  Welcome to our Books, Houses, and Characters Project! Here, we
+                  bring stories to life by exploring the intricate worlds of
+                  literature, architecture, and character development. This
+                  project dives deep into the essence of each book, the unique
+                  charm of each house, and the rich personalities that define
+                  unforgettable characters.
                 </p>
               </div>
               <div className="col-sm-4 offset-md-1 py-4">
                 <h4>Links</h4>
                 <ul className="list-unstyled">
                   <li>
-                    <Link to="#" className="text-white">
+                    <Link to="/" className="text-white">
                       Home
                     </Link>
                   </li>
                   <li>
-                    <Link to="#" className="text-white">
-                      About us
+                    <Link to="books" className="text-white">
+                      Books
                     </Link>
                   </li>
                   <li>
-                    <Link to="#" className="text-white">
-                      Contact
+                    <Link to="charactors" className="text-white">
+                      Characters
                     </Link>
                   </li>
                 </ul>
@@ -41,9 +43,18 @@ const Nav = () => {
         </div>
         <div className="navbar navbar-dark bg-red shadow-sm">
           <div className="container">
-            <Link to="#" className="navbar-brand d-flex align-items-center"> 
-            <i className="bi bi-book"></i>
-              <strong> Books</strong>
+            <Link to="#" className="navbar-brand d-flex align-items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-house-door-fill"
+                viewBox="0 0 16 16"
+              >
+                <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5" />
+              </svg>
+              <strong>HeadsUP</strong>
             </Link>
             <button
               className="navbar-toggler collapsed"
